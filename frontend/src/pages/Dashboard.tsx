@@ -360,7 +360,7 @@ const Dashboard: React.FC = () => {
         <div className="bg-white rounded-lg shadow p-6">
           <h3 className="text-lg font-semibold mb-2">Virtual Machines</h3>
           <p className="text-gray-600 mb-4">Kelola virtual machine di berbagai provider cloud</p>
-          <Link to="/vms" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded inline-block">
+          <Link to="/create-vm" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded inline-block">
             Kelola VM
           </Link>
         </div>
